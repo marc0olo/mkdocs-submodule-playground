@@ -1,0 +1,8 @@
+[submodule "aepp-sdk-java"]
+	path = aepp-sdk-java
+	url = https://github.com/kryptokrauts/aepp-sdk-java
+	branch = docs/mkdocs
+[submodule "contraect-maven-plugin"]
+	path = contraect-maven-plugin
+	url = https://github.com/kryptokrauts/contraect-maven-plugin
+	branch = docs/mkdocs

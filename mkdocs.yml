@@ -1,0 +1,25 @@
+# Project information
+site_name: "aggregation of multiple mkdocs using submodules"
+site_url: https://example.com/
+site_description: |
+  testing a mkdocs plugin
+
+# Repository
+repo_name: 'marc0olo/mkdocs-submodule-playground'
+repo_url: 'https://github.com/marc0olo/mkdocs-submodule-playground'
+
+# Theme
+theme:
+  name: readthedocs
+
+extra:
+  repo_icon: 'github'
+
+# Navigation
+nav:
+  - Introduction: index.md
+  - aepp-sdk-java: '!include ./aepp-sdk-java/mkdocs.yml'
+  - contraect-maven-plugin: '!include ./contraect-maven-plugin/mkdocs.yml'
+
+plugins:
+  - monorepo
